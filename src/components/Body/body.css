@@ -1,0 +1,42 @@
+.itemContainer {
+    display: flex;
+    margin: auto;
+    width: 75%;
+    justify-content: space-between;
+    margin-top: -70px;
+}
+
+.items {
+    border-bottom: solid black 1px;
+    height: 33px;
+    font-family: Snell Roundhand, cursive;
+    font-size: 25px;
+    cursor: pointer;
+    margin-top: 25px;
+    color: black;
+}
+.arrowUp {
+    width: 0;
+    height: 0;
+    border-left: 300px solid transparent;
+    border-right: 300px solid transparent;
+    border-bottom: 15px solid #90a182;
+    margin: auto;
+    margin-bottom: 55px;
+    margin-top: -65px;
+}
+
+.arrowDown {
+    width: 0;
+    height: 0;
+    border-left: 300px solid transparent;
+    border-right: 300px solid transparent;
+    border-top: 15px solid #90a182;
+    margin: auto;
+    margin-top: 18px;
+}
+
+.itemLink{
+    text-decoration: none;
+    color: black;
+}

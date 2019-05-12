@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import picture from '../IMG_2256.PNG'
+import picture from '../../IMG_2256.PNG'
 import './header.css'
 
 class Header extends Component{
@@ -12,7 +12,10 @@ render(){
     return(
         <div>
             <div>
+                <div>
+
                 <img style={ style } src={ picture } alt='' className='image'/>
+                </div>
                 <div className='border'>
                 </div>
             </div>

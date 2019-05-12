@@ -1,0 +1,18 @@
+.main {
+    text-align: center;
+    background-color: #fffff2;
+    height: 100vh;
+  }
+  
+.home{
+  position: absolute;
+  right: 15px;
+}
+
+.upMenu {
+  font-family: Snell Roundhand, cursive;
+  font-size: 25px;
+  cursor: pointer;
+  border-bottom: solid black 1px;
+}
+
