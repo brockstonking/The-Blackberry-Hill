@@ -16,3 +16,8 @@
   border-bottom: solid black 1px;
 }
 
+.contentDiv {
+  margin-top: 50px;
+  padding: 25px;
+  background-color: #fffff2;
+}

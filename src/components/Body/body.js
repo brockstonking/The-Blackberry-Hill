@@ -19,7 +19,6 @@ class Body extends Component{
                         </div>
                         </nav>
                     <div className='arrowDown'></div>
-                    { routes }
                 </div>
             </Router>
         )

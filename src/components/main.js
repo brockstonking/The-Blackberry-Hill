@@ -3,6 +3,7 @@ import './main.css';
 import Header from './Header/header'
 import Body from './Body/body'
 import { HashRouter as Router, Link } from 'react-router-dom'
+import routes from '../routes'
 
 class Main extends Component {
   render(){
@@ -13,10 +14,10 @@ class Main extends Component {
         <div className='lowerContainer'>
           <Header />
           <Body />
+        </div>       
+        <div className='contentDiv'>
+          { routes }
         </div>
-
-        
-       
       </div>
       </Router>
     )
