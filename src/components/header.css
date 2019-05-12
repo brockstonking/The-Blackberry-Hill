@@ -1,0 +1,13 @@
+.border {
+    height: 15px;
+    border-top: solid;
+    width: 70%;
+    margin: auto;
+    position: relative;
+    top: -153px;
+}
+
+img.image {
+    position: relative;
+    z-index: 2;
+}
